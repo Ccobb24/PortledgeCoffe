@@ -1,0 +1,123 @@
+/* This will style the body element */
+
+body {
+    background-color: rgb(243, 237, 182);
+    background-image: url(Images/Blue_Bottle\,_Kyoto_Style_Ice_Coffee_\(5909775445\).jpeg);
+    border: 0;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* This will style the wrapper class.... center the content and give it a width */
+
+
+.wrapper {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* This will style the header with a Logo Image in it */
+header {
+    background-color: rgba(85, 85, 219, 0.457);
+    height: 120px;
+}
+
+.coffeeLogo {
+    height: 100%;
+}
+
+/* This nav will contain links and be given a narrow height */
+nav {
+    background-color: rgb(43, 183, 226, 0.375);
+    min-height: 32px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+nav a {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+/* This will style main which will contain text for the homepage */
+
+main {
+    min-height: 400px;
+    text-align: center;
+    padding: 32px 128px;
+}
+
+main h1 {
+    font-size: 85px;
+    color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+}
+
+main p {
+    font-size: 18px;
+    color: rgb(249, 111, 36);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+}
+
+main a {
+    color: aliceblue;
+}
+
+/* This wull style the embedded google map area */
+.map {
+    /*background-color: crimson;*/
+    min-height: 200px;
+    text-align: center;
+}
+
+/* THis will style the footer and content */
+footer {
+    background-color: rgb(43, 183, 226, 0.375);
+    min-height: 64px;
+}
+
+/*add a color to the text alogn the text to the center, change the font family */
+footer p {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 40px
+}
+
+h2 {
+    color: rgb(78, 156, 225);
+}
+
+.BAGOBEANS {
+    height: 400px;
+    padding-top: 5rem;
+    padding-left: 10rem;
+}
+
+.ICEDCOFFEE {
+    height: 400px;
+    padding-top: 5rem;
+    padding-left: 10rem;
+}
+
+.ESPRESSO {
+    height: 400px;
+    padding-top: 5rem;
+    padding-left: 10rem;
+
+}
